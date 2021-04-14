@@ -4,10 +4,11 @@ import './index.css';
 // import App from './App';
 import reportWebVitals from './reportWebVitals';
 import Parent from "./pages/demo_1/Parent";
+import Admin from "./admin";
 
 ReactDOM.render(
   <React.StrictMode>
-    <Parent />
+    <Admin />
   </React.StrictMode>,
   document.getElementById('root')
 );

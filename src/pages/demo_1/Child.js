@@ -1,4 +1,5 @@
 import React from "react";
+import "./Child.less"
 
 export default class Child extends React.Component {
     constructor(props) {
@@ -9,7 +10,7 @@ export default class Child extends React.Component {
     }
 
     render() {
-        return <div>
+        return <div className="bgColor">
             <p>Child Get Value: {this.props.parentName}</p>
         </div>
     }
