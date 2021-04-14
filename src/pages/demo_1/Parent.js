@@ -1,5 +1,6 @@
 import React from "react";
 import Child from "./Child";
+import "./Parent.css"
 
 export default class Parent extends React.Component {
     constructor(props) {
@@ -25,7 +26,7 @@ export default class Parent extends React.Component {
     }
 
     render() {
-        return <div>
+        return <div className={"paddingContent"}>
             <p>生命周期效果演示</p>
             <button onClick={this.addOne}>点击加一</button>
             <button onClick={this.addTwo.bind(this)}>点击加一</button>
