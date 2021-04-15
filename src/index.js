@@ -1,9 +1,8 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-// import App from './App';
 import reportWebVitals from './reportWebVitals';
-import Parent from "./pages/demo_1/Parent";
+import 'antd/dist/antd.less';
 import Admin from "./admin";
 
 ReactDOM.render(
